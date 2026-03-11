@@ -1,0 +1,15 @@
+.page { max-width: 700px; margin: 0 auto; }
+.heading { font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; }
+.items { display: flex; flex-direction: column; gap: 1rem; }
+.item { display: flex; align-items: center; gap: 1rem; background: #fff; padding: 1rem; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+.itemInfo { flex: 1; }
+.itemName { font-weight: 600; margin: 0; }
+.itemPrice { color: #666; margin: 0; font-size: 0.9rem; }
+.itemControls { display: flex; align-items: center; gap: 0.5rem; }
+.itemControls button { width: 28px; height: 28px; border: 1px solid #d4d4d8; border-radius: 6px; background: #f4f4f5; cursor: pointer; font-size: 1rem; }
+.itemControls button:disabled { opacity: 0.4; cursor: not-allowed; }
+.lineTotal { font-weight: 700; min-width: 60px; text-align: right; }
+.removeBtn { background: none; border: none; color: var(--color-scarlet); cursor: pointer; font-size: 0.85rem; font-weight: 600; }
+.total { font-size: 1.3rem; font-weight: 700; text-align: right; margin-top: 1.5rem; }
+.empty { text-align: center; margin-top: 4rem; }
+.browseLink { color: var(--color-scarlet); font-weight: 600; }

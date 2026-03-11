@@ -67,3 +67,25 @@
   margin: 0.25rem 0 0;
   color: var(--color-gray-dark);
 }
+.addButton {
+  background: var(--color-scarlet);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.65rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-top: 0.75rem;
+  align-self: flex-start;
+}
+
+.addButton:hover {
+  background: #c41e3a;
+  box-shadow: 0 2px 8px rgba(220, 20, 60, 0.3);
+}
+
+.addButton:active {
+  transform: scale(0.98);
+}
